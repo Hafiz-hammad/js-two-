@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 1st Registrtaion Form !!!</title>
+</head>
+<body>
+    
+    <form>
+        <h1 align="center"><u>Q-5 Alert box in Existing Html Registation Form </u></h1>
+        <div>
+
+            <label for="fname"> First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter Your Name" required>
+
+        </div>
+        <br>    
+        <div>
+            <label for="lname"> Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name" required>
+
+        </div>
+        <br>        
+        <div>
+
+            <label for="email"> Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your email" required>
+
+        </div>
+        <br>    
+        <div>
+            <label for="contact no"> Contact No:</label>
+            <input type="tel" id="contact no" name="contact no" placeholder="Enter Your Contact No" required>
+
+        </div>      
+        
+        <br>
+
+        <div>
+            <label for="password">Enter Your Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password" required maxlength="12">
+        </div>
+        <br>
+
+        <div>
+            <label for="birthdate">Birthdate</label>
+            <input type="date" name="bdate" id="bdate">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="quantity">Enter Quantity</label>
+            <input type="number" name="quantity" id="quantity" min="0" max="99" value="1">
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="Mr.">Mr.</label>
+            <input type="radio" name="radio" id="Mr.">
+            
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" name="radio" id="Mrs.">
+    
+            <label for="Others">Others</label>
+            <input type="radio" name="radio" id="Others">
+        </div>
+
+        <br>
+        
+        <div>
+
+            <label for="dropdown">Fee Payment Method</label>
+            <select id="payment" name="payment">
+            
+                <option value="visa">Visa Card</option>
+                <option value="Cash">Cash</option>
+                <option value="gift">Gift Voucher</option>
+            </select>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label ><u><b>Check Your Account !!! </b></u></label> <br>
+            <input type="checkbox" name="check" id="check">
+
+            <label for="check">Facebook</label><br>
+            <input type="checkbox" name="check" id="check">
+            <label for="check">Twitter</label><br>
+            <input type="checkbox" name="check" id="check">
+            <label for="check">Instagran</label><br>
+            
+        </div>
+
+        <br>
+
+        <div>
+            <button  name="" id="" onclick="myfunc()">Submit</button><br>
+            <input type="reset">
+        </div>
+
+    </form>
+    
+</body>
+</html>
+<script>
+    function myfunc()
+{
+    alert("Error! Please Enter a valid password");
+}
+</script>
